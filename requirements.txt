@@ -4,8 +4,8 @@ langchain-core
 langchain-community
 langchain-qdrant
 langchain-text-splitters
-qdrant-client[fastembed]
 fastembed
 pypdf
 python-dotenv
 langchain-groq
+faiss-cpu
