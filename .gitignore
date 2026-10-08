@@ -1,0 +1,15 @@
+cat > .gitignore << 'EOF'
+qdrant_data/
+qdrant_storage/
+storage/
+*.snapshot
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.cache/
+fastembed_cache/
+EOF
